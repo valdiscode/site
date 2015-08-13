@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset=utf-8">
+	<title>Методы обьекта window</title>    
+	</head>
+	<body>
+	<div>	
+		<script type="text/javascript">  
+			// Методы обьекта window
+			
+			/*
+			var newWin = window.open("","Новое окно","width=400, height=300");
+			newWin.document.write("Вывод информации в новое окно");
+			*/
+			
+			//window.alert("Я модальное окно");
+			
+			/*
+			var age = prompt("Сколько Вам лет?","Мой возраст");
+			alert("Ваш возраст: " + age);
+			*/
+			
+			var answer = confirm("Вы согласны ехать с нами в путишествие?")
+			
+			if (answer) {
+				document.write("Ура! Едем вместе!");
+			}
+			else {
+				document.write("Ок, поедем вместе в следующий раз");
+			}
+		</script>
+	</div>
+	</body>
+</html>

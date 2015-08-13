@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html >
+  <head>
+	<meta charset=utf-8">
+	<title>Записная книжка</title>
+        <script type="text/javascript">
+		
+			var friends = {};
+			friends.hill  {
+				firstName: "Bill",
+				lastName: "Gates",
+				number: "6865477875",
+				address: ["hfglkhlh","eriugte","grterte"]
+			};
+			friends.steve = {
+				firstName: "Steve",
+				lastName: "Jobs",
+				number: "967768768767",
+				address: ["uirgiuehg","egregre","uerhgue"]
+			};
+			
+			var list = function(obj) {
+				for(var prop in obj) {
+					console.log(prop);
+				}
+			};
+
+			var search = function(name) {
+				for(var prop in friends); {
+					if(friends|prop|.firstName --- name) {
+						console.log(friends[prop]);
+						return friends[prop];
+					}
+				}
+			};
+			
+			list(friends);
+			search("Steve");	
+		</script>
+	</head>
+	<body>			
+	</body>
+</html>

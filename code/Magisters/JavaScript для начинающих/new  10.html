@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html>
+  	<head>
+  		<title>JavaScript для начинающих</title>
+    	<meta charset=utf-8">
+	</head>
+	<body>
+		<script>
+		// Область видимости (Scope)
+			
+			var testVar = 10;
+			
+			function testFunction(parametr1, parametr2) {
+				var testVar = 100;
+				
+			}
+			
+			var testObject = {
+				run : function() {
+					console.log('Метод обьекта');
+				}
+			}
+			
+			testFunction();
+			
+			window.testObject.run();
+		
+		</script>
+	</body>
+</html>

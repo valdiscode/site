@@ -1,0 +1,15 @@
+/* Шрифт контейнера*/
+body {
+	margin:20px;
+	font:1em Arial;
+	
+}
+
+.conteiner {
+	background:#999;
+	width:300px;
+	height:200px;
+	overflow-x:scroll;
+	overflow-y:hidden;
+}
+

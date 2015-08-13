@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset=utf-8">
+	<title>Многомерные массивы</title>    
+	</head>
+	<body>
+	<div>	
+		<script type="text/javascript">  
+			//   Курс по Javascript
+				
+			var students = ["Абаканов Сергей", "Домрачева Алина", "Гагарин Матвей", "Кевтунова Лейла", "Сакуров Иоган"];
+			var students2 = ["Виталий Петров", "Джонсон Баттон"];
+			var students3 = ["Элла Мухачева", "Василий Бренденбург"];
+			
+			var myCollege = [students, students2, students3];
+			document.write(myCollege[0][2]);
+			
+			var appleSorts = ["Антоновка", "Северинка"];
+			var orangeSorts = ["Египетский апельсин", "Турецкий апельсин", "Апельсин из ЮАР"];
+			var fruits = ["Банан", appleSorts, "Груша", orangeSorts];
+			document.write("Наш любимый фрукт: " + fruits[3][1]);
+		</script>
+	</div>
+	</body>
+</html>
+

@@ -1,0 +1,15 @@
+﻿body {
+	font:1em 'PT Sans' Arial,sans-serif;
+	background-image:url(http://subtlepatterns.
+		com/patterns/grid.png);
+}
+
+.container {
+	
+	margin:50px;
+	/*-moz-column-width:200px;
+	-moz-column-gap:100px;
+	-moz-column-rule:2px dashed rgba(0,0,0,.5);*/
+	
+	
+}

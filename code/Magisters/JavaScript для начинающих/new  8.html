@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html>
+  	<head>
+  		<title>JavaScript для начинающих</title>
+    	<meta charset=utf-8">
+	</head>
+	<body>
+		<input type="text" name="length" id="length" placeholder="Длинна">
+		<input type="text" name="width" id="width" placeholder="Ширина">
+		<input type="text" name="height" id="height" placeholder="Высота">
+		<input type="button" id="calculate" onclick="displayResult()" value="Расчитать обьем">
+		<br>
+		<p id="result"></p>
+		
+		<script>
+		// Функции
+			
+			function displayResult()
+			{
+				var length = document.getElementById('length').value;
+				var width = document.getElementById('width').value;
+				var height = document.getElementById('height').value;
+				
+				document.getElementById('result').innerHTML = 'Площадь равна: ' + calculateSize(length, width, height) + ' м<sup>3</sup>';
+			}
+			
+			function calculateSize(length, width, height)
+			{
+				return length * width * height;
+			}
+		
+		</script>
+	</body>
+</html>
