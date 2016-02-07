@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset=utf-8">
+	<title>Метод search</title>    
+	</head>
+	<body>
+	<div>	
+		<script type="text/javascript">  
+			// Метод search введение в регулярные выражения
+			
+			var forTesting = "7 пингвинов и 9 карасей";
+			
+			function numberTest (myString) {
+			var regV = /^\d/;
+				if (myString.search(regV) == -1) {
+					document.write("Строка начинается не с цифры");
+				}
+				else {
+					document.write("Строка начинается с цифры");
+				}
+			
+			}
+			
+			numberTest(forTesting);
+			
+		</script>
+	</div>
+	</body>
+</html>

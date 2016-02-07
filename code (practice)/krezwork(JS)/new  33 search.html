@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset=utf-8">
+	<title>Метод search</title>    
+	</head>
+	<body>
+	<div>	
+		<script type="text/javascript">  
+			// Метод search введение в регулярные выражения
+			
+			/*
+			var test = "Вот мы и приехали";
+			var regV = /мы/;
+			var result = test.search(regV);
+			document.write(result);
+			*/
+			
+			var myindex = "450000 - мой индекс";
+			var regV = /^\d{6}$/;
+			var result = myindex.search(regV);
+			document.write(result);
+			
+			
+		</script>
+	</div>
+	</body>
+</html>

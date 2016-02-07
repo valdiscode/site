@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Learning Javascript(переменные)</title>
+
+
+</head>
+<body>
+	
+	<input type="text" id="myInput" value="test">
+
+	<button id="stylesChanger">Change the text!</button>
+
+	<div id="firstDiv">This is some text</div>
+
+	
+	<script type="text/javascript">
+
+	// переменные
+
+		var newText=document.getElementById("myInput").value;
+
+		document.getElementById("stylesChanger").onclick=function() {
+
+			newText=document.getElementById("myInput").value;
+
+			document.getElementById("firstDiv").innerHTML=newText;
+		}
+
+
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Learning Javascript()</title>
+
+
+</head>
+<body>
+
+	<p>What is the weather?</p>
+	<input id="weather">
+	<button id="myButton">Submit</button>
+	
+	<script type="text/javascript">
+
+	// если заявления
+
+		document.getElementById("myButton").onclick=function() {
+
+			if (document.getElementById("weather").value=="rain") {
+
+				alert ("it`s raining");
+
+			} else {
+
+				alert("it`s not raining!");
+
+			}	
+
+		}
+
+	/*
+	var x=1;
+
+	if (x==2) {
+		alert("x is 1!");
+	
+	} else {
+		alert("x is not 1!");
+	}
+	*/
+	</script>
+
+</body>
+</html>

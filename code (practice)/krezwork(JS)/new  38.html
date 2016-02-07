@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset=utf-8">
+	<title>Ищем сайты в строке метод replace</title>    
+	</head>
+	<body>
+	
+	
+	<div>	
+		<script type="text/javascript">  
+		 <!-- Свойства и Методы обьекта string (работа со строками) -->
+			/*
+			var myString = "www,site,ru www,supersite,com www,bestsite,net";
+			var regV = /,/g;
+			var result = myString.replace(regV, '.');
+			document.write(result);
+			*/
+			
+			var tel = "8/927/31/10/765";
+			var sign = "-";
+			
+			function changeTel(tel,sign) {
+				var regV = /\//g;
+				var result = tel.replace(regV,sign);
+				document.write(result);
+			}
+			
+			changeTel(tel,sign);
+		</script>
+	</div>
+	</body>
+</html>

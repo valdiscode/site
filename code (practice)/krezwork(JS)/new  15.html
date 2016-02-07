@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset=utf-8">
+	<title>Курс по Javascript</title>    
+	</head>
+	<body>
+	<div>	
+		<script type="text/javascript">  
+			//  Дополнительные методы дляработы с Массивами 5
+			/*
+			реверс массива - .reverse()
+			сортировка массива - sort
+			на разделителя - join()
+			соединение массивов - concat   -------var total = students.concat(students2);-------------
+			 Делаем вырезу из массива - slice
+			*/
+			
+			var students = ["Абаканов Сергей", "Домрачева Алина", "Гагарин Матвей", "Кевтунова Лейла", "Сакуров Иоган"];
+			var students2 = ["Виталий Петров", "Джонсон Баттон"];
+			var total = students.concat(students2);
+			var happyStudents = students.slice(1,3);
+			document.write("В субботу идут убираться эти студенты: " + happyStudents);
+		</script>
+	</div>
+	</body>
+</html>
+

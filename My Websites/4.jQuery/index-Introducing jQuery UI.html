@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Learning Javascript jQuery</title>
+
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
+
+
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js"></script>
+
+	<style>
+		#square {
+			height: 200px;
+			width: 200px;
+			background-color: grey;
+		}
+
+		#target {
+			height: 300px;
+			width: 300px;
+			background-color: yellow;
+		}
+	</style>
+
+</head>
+<body>
+
+	<div id="square"></div>
+
+	<div id="target"></div>
+
+
+
+	<script type="text/javascript">
+	// Introducing jQuery
+
+		$("#square").draggable();
+
+		$("#target").droppable({
+			drop: function(ui, event) {
+				alert("dropped!");
+
+				$("#target").css("background-color","red");
+			}
+		});
+		
+
+	</script>
+
+</body>
+</html>

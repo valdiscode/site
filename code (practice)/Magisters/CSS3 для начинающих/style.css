@@ -1,0 +1,347 @@
+﻿@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,700&subset=latin,cyrillic);
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+
+time, mark, audio, video {
+	margin:0;
+	padding:0;
+	border:0;
+	font-size:100%;
+	font:inherit;
+	vertical-align:baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display:block;
+}
+body {
+	line-height:1;
+}
+ol, ul {
+	list-style:none;
+}
+blockquote, q {
+	quotes:none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content:'';
+	content:none;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+
+/* Оформление параграфов */
+body {
+    background: #333333 url(images/18.jpg) repeat-x top left;
+}
+
+#page {
+    width: 960px;
+    margin: 0 auto;
+	position:relative;
+}
+
+.strong-red {
+    margin-top: 400px;
+    color: #34b9ff;
+    text-align: justify;
+    text-decoration: none;
+    text-indent: 30px;
+    line-height: 30px;
+    font-family: 'Cuprum', sans-serif;
+    font-style: italic;
+    font-variant: small-caps
+}
+
+.light-blue {
+    font-weight: bold;
+    color: blue;
+}
+
+.light-blue {
+    font-size: 18px;
+    color: black;
+}
+
+#styles li {
+	color:#fff;
+	font-family:"Cuprum", sans-serif;
+    list-style:circle url(images/vkontakte.png) inside;
+	padding:5px;
+	border:1px solid #fff;
+}
+
+#styles li:hover {
+	background:#000;
+}
+
+#navigation {
+	height:65px;
+}
+
+#navigation ul li {
+	float:left;
+	position:relative;
+}
+
+#navigation ul li a:hover {
+	background:rgba(183, 43, 43, 0.72);
+	text-decoration:underline;
+}
+
+#navigation .dropdown {
+	position:absolute;
+	z-index:2;
+	top:100%;
+	width:150px;
+	background:#575757;
+	display:none;
+}
+
+#navigation li:hover .dropdown {
+	display:block;
+}
+
+#navigation .dropdown li {
+	width:100%;
+	height:45px;
+}
+
+#navigation .dropdown li a {
+	line-height:45px;
+	height:45px;
+}
+
+#header {
+	height:204px;
+	position:relative;
+}
+
+.logo {
+	display:block;
+	position:absolute;
+	top:42px;
+	left:0;
+}
+
+.search {
+	position:absolute;
+	right:0;
+	top:90px;
+}
+
+#content {
+	
+}
+
+#content:before,
+#content:after {
+	content:"";
+	display:table;
+}
+
+#content:after {
+	clear:both;
+}
+
+#content {
+	zoom:1; /*For IE 6/7 (trigger) */
+}
+
+#article {
+	width:740px;
+	padding-left:20px;
+	float:right;
+}
+
+#article p {
+
+}
+
+#article > p {
+	
+}
+
+#article .combinator + p {
+	background:blue;
+}
+
+#article .combinator ~ p {
+	
+}
+
+#article p {
+	color:#fff;
+	font-family:"Cuprum", sans-serif;
+}
+
+#sidebar {
+	width:200px;
+	float:left;
+}
+
+#sidebar ul li {
+	color:#fff;
+	font-family:"Cuprum", sans-serif;
+}
+
+#fixed {
+	width:100%;
+	height:100%;
+	background:rgba(225,225,225,0.5);
+	position:fixed;
+	top:0;
+	right:0;
+}
+
+.modal-body {
+	position:absolute;
+	width:300px;
+	height:400px;
+	background:#fff;
+	left:50%;
+	top:50%;
+	margin-left:-150px;
+}
+
+
+
+.pseudo-class {
+	color:red;	
+}
+
+.pseudo-class:hover {
+	color:green;
+}
+
+.pseudo-class:visited {
+	color:blue;
+}
+
+.pseudo-class:focus {
+	color:yellow;
+}
+
+#article p:first-child {
+	color:black;
+}
+
+#article p:last-child {
+	color:yellow;
+}
+
+.pseudo-element::before,
+.pseudo-element::after {
+	content:"";
+	display:block;
+	width:100%;
+	height:1px;
+	background:#fff;
+	margin-bottom:10px;
+	margin-top:10px;
+}
+
+.first-letter::first-letter {
+	color:#fff;
+	font-size:48px;
+	display:block;
+	float:left;
+	margin-right:5px;
+	margin-bottom:5px;
+}
+
+.first-line::first-line {
+	font-size:24px;
+	color:#fff;
+}
+
+.first-line::selection {
+	background:#fff;
+	color:yellow;
+}
+
+a [target="_blank"] {
+	color:yellow;
+}
+
+a [title~="внешняя"] {
+	color:red;
+}
+
+a [class|="cocial"] {
+	color:green;
+}
+
+a [title^="cocial"] {
+	color:darkorannge;
+}
+
+a [title$="icon"] {
+	color:aqua;
+}
+
+a [title*="co"] {
+	color:darkcyan;
+}
+
+input[type="text"] {
+	border:1px solid darkcyan;
+}
+
+input[type="button"] {
+	border:1px solid darkcyan;
+	color:aliceblue;
+	background:darkcyan;
+}
+
+.icon {
+	display:inline-block;
+	height:40px;
+	width:40px;
+	background-image:url(images/sprite.png);
+}
+
+.icon.icon-car {
+	background-position:0 0;
+}
+
+.icon.icon-car:hover {
+	background-position:0 -40px;
+}
+
+.icon.icon-check {
+	background-position:-40px 0;
+}
+
+.icon.icon-check:hover {
+	background-position:-40px -40px;
+}
+
+.icon.icon-cart {
+	background-position:-80px 0;
+}
+
+.icon.icon-cart:hover {
+	background-position:-80px -40px;
+}
+
+.icon.icon-comments {
+	background-position:-120px 0;
+}
+
+.icon.icon-comments:hover {
+	background-position:-120px -40px;
+}
+
+
+
+
+
+
+
