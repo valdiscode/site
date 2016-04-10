@@ -1,0 +1,9 @@
+для Udemy
+В скачаныые файлы Абрахама мы подкючаем файл twitter.php
+Все файлы Заливаются под домен
+
+/public_html/twitter/дальше идут все папки и файлы
+домен/twitter/twitter.php
+
+доп,инфа
+https://dev.twitter.com/rest/reference/get/statuses/user_timeline

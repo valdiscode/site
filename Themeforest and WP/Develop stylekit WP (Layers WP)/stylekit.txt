@@ -1,0 +1,15 @@
+Ќазвание сайта: Layers WP - StyleKit Lesson
+»м€ пользовател€: admin
+ѕароль: 7777
+база данных: stylekit-lesson
+
+ѕодробное описание по работе с Layers (читай перед работой!!!)
+http://webdesign-master.ru/blog/wordpress/568.html
+
+-≈сли сайт на русском то беретс€ кирилица из google fonts
+
+
+-layers-child (создание дочерней темы)
+layers-style-kit-demo-master (пример-демо-структура StyleKit)
+
+-layers smooth scroll -задает плавность перехода по меню сайта
