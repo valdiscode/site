@@ -1,0 +1,132 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a,
+abbr, acronym, address, big, cite, code, del, 
+dfn, em, img, ins, kbd, q, s, samp, small, strike,
+strong, sub, sup, tt, var, b, u, i, center, dl, dt,
+dd, ol, ul, li, fieldset, form, label, legend, table, 
+caption, tbody, tfoot, thead, tr, th, td, article, aside,
+canvas, details, embed, figure, figcaption, footer, header, 
+hgroup, menu, nav, output, ruby, section, summary, time, 
+mark, audio, video { 
+margin: 0; 
+padding: 0; 
+border: 0; 
+font-size: 100%; 
+font: inherit; 
+vertical-align: baseline; 
+
+}
+html {height: 100%;}
+body {
+	height: 100%;
+	font: 14px/18px 'Times New Roman', Times, sans-serif;
+	border-color: #fff;
+}
+
+ol, ul {list-style:none;}
+
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box; 
+	box-sizing: border-box;
+}
+
+a, a:hover {text-decoration: none;}
+
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+.clearfix:after {clear:both;}
+
+.left {float: left;}
+.right {float: right;}
+
+
+.container {
+	width: 940px;
+	margin: 0 auto;
+}
+
+#header {
+	position: absolute;
+	top:20px;
+	left: 0;
+	right: 0;
+	width: 100%;
+	padding: 20px 0;
+}
+
+.logo {
+	float: left;
+}
+
+.nav {
+	float: right;
+	padding-top: 5px;
+}
+
+.nav li {
+	float: left;
+	margin-right: 40px;
+}
+
+.nav li:last-child {margin-right: 0;}
+
+.nav a {
+	text-transform: uppercase;
+	font: 14px Arial, sans-serif;
+	color: #fff;
+}
+.nav a:hover {
+	color: #fed136;
+}
+
+#home {
+	height: 700px;
+	padding-top: 270px;
+	text-align: center;
+	color: #fff;
+	background: #222 url(../img/home-bg.jpg) no-repeat center bottom;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#home h3 {
+	margin-bottom: 40px;
+	font: 40px/40px Arial, sans-serif;
+	color: #fff;
+}
+
+#home h1 {
+	margin-bottom: 50px;
+	text-transform: uppercase;
+	font: 75px/75px Arial, sans-serif;
+	color: #fff;
+}
+
+.btn {
+	display: inline-block;
+	padding: 20px 30px;
+	text-transform: uppercase;
+	font: bold 24px/24px Arial, sans-serif;
+	background: #fed136;
+	cursor: pointer;
+
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-o-border-radius: 4px;
+	border-radius: 4px;
+}
+
+.btn:hover {
+	background: #daae17;
+	color: #fff;
+}
